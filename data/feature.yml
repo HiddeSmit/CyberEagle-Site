@@ -1,0 +1,36 @@
+enable  : true
+title   : Penetration testing services
+subtitle: >
+  In order to guarantee the quality, Cyber Eagle only offers services in which a deep level of knowledge and specialization is readily available.
+  <br> Due to regulatory reasons, services are currently only available to The Netherlands.
+item    :
+  - icon  : ion-ios-globe
+    title : Web Application Pentesting
+    description : >
+      Discover security vulnerabilities in web applications. Based on OWASP Application Security Verification Standard (ASVS).
+
+  - icon  : ion-ios-cloud-outline
+    title : Network Pentesting
+    description : >
+      Simulate the presence of a malicious actor inside the network. Discover and exploit security vulnerabilities.
+
+  - icon  : ion-ios-chatbubbles
+    title : Security Awareness Campaigns
+    description : >
+      The weakest link in an organization is often the people. Simulated phishing campaigns and security awareness presentations can increase the level of awareness. 
+
+  - icon  : ion-ios-code-working
+    title : Source Code Analysis
+    description : >
+      Greatly improve the coverage of web application assessments and unearth more vulnerabilities that would've otherwise flown beneath the radar.
+
+  - icon  : ion-logo-android
+    title : Android Pentesting
+    description : >
+      Discover security vulnerabilities in Android applications. Based on OWASP Mobile Application Security Verification Standard (MASVS).
+
+  - icon  : ion-ios-laptop
+    title : Mobile Device Pentesting
+    description : >
+      Discover security vulnerabilities in hardened devices like laptops and digital kiosks. 
+  

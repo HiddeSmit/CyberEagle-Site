@@ -1,0 +1,75 @@
+baseURL = "https://cybereagle.io/"
+languageCode = "en-us"
+title = "Cyber Eagle | Professional penetration testing services"
+theme = "timer-hugo"
+
+disableKinds = ["taxonomy", "RSS", "sitemap", "term"]
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "Blog"
+url     = "blog"
+weight  = 2
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 3
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Cyber Eagle provides professional and affordable penetration testing services. Where quality matters more than quantity."
+author = "Cyber Eagle | Hidde Smit"
+# Google Analitycs
+#googleAnalitycsID = "test"
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "WELCOME TO CYBER EAGLE"
+description = "WITH OVER 100 PENTESTS IN EXPERIENCE, CYBER EAGLE GUARANTEES PROFESSIONAL ASSESSMENTS AND REPORTS."
+
+# flip text
+[[params.banner.flipText]]
+title   = "KEEN EYE ON CYBERSECURITY"
+[[params.banner.flipText]]
+title   = "EXPERT IN PENETRATION TESTING"
+[[params.banner.flipText]]
+title   = "HIGH-QUALITY REPORTS"
+[[params.banner.flipText]]
+title   = "SKILLED PENTESTER"
+
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "ABOUT ME"
+content = "Cyber Eagle is a one-person company founded by Hidde Smit. Hidde Smit is a highly motivated security consultant with specialization in penetration testing. <br> <br> A keen eye for detail and a deep level of knowledge is what sets Cyber Eagle apart from others. <br> <br> Cyber Eagle has over 100 pentests in experience and is in possession of the following certifications: <br> - Offensive Security Web Expert (OSWE) <br> - Offensive Security Certified Professional (OSCP) <br> - Certified Ethical Hacker (CEH) <br> - Certified Information Systems Security Professional (CISSP) <br> - Systems Security Certified Practitioner (SSCP)"
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "LOOKING FOR A SECURITY ASSESSMENT ?"
+content = "Don't hesitate to contact me!"
+btnText = "Contact me"
+btnURL  = "/contact"
+
+# social icon
+#[[params.socialIcon]]
+#icon = "ion-social-facebook"
+#url = "#"
+
+#[[params.socialIcon]]
+#icon = "ion-social-instagram"
+#url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "https://www.linkedin.com/in/hiddes/"

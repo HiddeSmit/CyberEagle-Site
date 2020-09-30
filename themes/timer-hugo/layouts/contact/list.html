@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.contact.enable }}
+{{ "<!-- Contact Section Start -->" | safeHTML }}
+<section id="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-6 mb-md-0">
+                <div class="block">
+                    {{ with .Site.Data.contact.contactFormTitle }}<h2 class="subtitle wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">{{ . }}</h2>{{ end }}
+                    {{ with .Site.Data.contact.contactFormSubtitle }}<p class="subtitle-des wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+                    <div class="row address-details">
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
+                                <i class="ion-ios-home"></i>
+                                {{ with .Site.Data.contact.officeAddress1 }}<h5>{{ . }}</h5>{{ end }}
+                            </div>
+                        </div>          
+          
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
+                                {{ with .Site.Data.contact.mail1 }} <a href="mailto:{{ . }}" target="_blank" rel="noopener noreferrer nofollow"><i class="ion-ios-mail"></i></a>{{ end }}
+                                {{ with .Site.Data.contact.mail1 }} <h5><a href="mailto:{{ . }} " target="_blank" rel="noopener noreferrer nofollow" style="text-decoration:none; color:#333">{{ . }}</a></h5>{{ end }}
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="kvk wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
+                                <i class="ion-ios-briefcase"></i>
+                                {{ with .Site.Data.contact.kvk }}<h5>{{ . }}</h5>{{ end }}
+                            </div>
+                        </div>
+            
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="btw wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
+                                <i class="ion-ios-cash"></i>
+                                {{ with .Site.Data.contact.btwId }}<h5>{{ . }}</h5>{{ end }}
+                            </div>
+                        </div>
+           
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="map-area">
+                    {{ with .Site.Data.contact.mapTitle }}<h2 class="subtitle  wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">{{ . }}</h2>{{ end }}
+                    {{ with .Site.Data.contact.mapSubtitle }}<p class="subtitle-des wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19643.015501313188!2d4.691054856489543!3d52.01823050221681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5d6abf5be06cb%3A0x52baf414500565a3!2sGouda!5e0!3m2!1sen!2snl!4v1596630366578!5m2!1sen!2snl"
+                            width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Contact Section End -->" | safeHTML }}
+{{ end }}
+
+{{ end }}
