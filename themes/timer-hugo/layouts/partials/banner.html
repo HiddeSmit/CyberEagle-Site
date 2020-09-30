@@ -13,9 +13,9 @@
                             <span class="cd-words-wrapper">
                                 {{ range $index, $element := .Site.Params.banner.flipText }}
                                     {{ if eq $index 0 }}
-                                    <b class="is-visible">{{ .title }}</b>
+                                    <b class="is-visible">{{ .title | safeHTML}}</b>
                                     {{else}}
-                                    <b>{{ .title }}</b>
+                                    <b>{{ .title | safeHTML}}</b>
                                     {{end}}
                                 {{ end }}
                             </span>

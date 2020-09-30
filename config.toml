@@ -37,14 +37,11 @@ description = "WITH OVER 100 PENTESTS IN EXPERIENCE, CYBER EAGLE GUARANTEES PROF
 
 # flip text
 [[params.banner.flipText]]
-title   = "KEEN EYE ON CYBERSECURITY"
+title   = "KEEN EYE <br> ON CYBERSECURITY"
 [[params.banner.flipText]]
-title   = "EXPERT IN PENETRATION TESTING"
+title   = "EXPERT IN <br> PENTESTING"
 [[params.banner.flipText]]
-title   = "HIGH-QUALITY REPORTS"
-[[params.banner.flipText]]
-title   = "SKILLED PENTESTER"
-
+title   = "HIGH-QUALITY <br> REPORTS"
 
 # Homepage About Section
 [params.about]
