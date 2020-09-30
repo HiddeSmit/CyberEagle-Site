@@ -61,15 +61,6 @@ content = "Don't hesitate to contact me!"
 btnText = "Contact me"
 btnURL  = "/contact"
 
-# social icon
-#[[params.socialIcon]]
-#icon = "ion-social-facebook"
-#url = "#"
-
-#[[params.socialIcon]]
-#icon = "ion-social-instagram"
-#url = "#"
-
 [[params.socialIcon]]
-icon = "ion-social-linkedin"
-url = "https://www.linkedin.com/in/hiddes/"
+icon = "ion-logo-linkedin"
+url = "https://www.linkedin.com/company/cybereagle"
