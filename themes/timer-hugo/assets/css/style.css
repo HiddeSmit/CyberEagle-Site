@@ -942,6 +942,16 @@ article {
   padding: 40px 0;
 }
 
+.post-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-content ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 .post-content blockquote p {
   padding: 10px 20px;
   margin: 0 0 20px;
